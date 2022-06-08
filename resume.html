@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV template</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RESUME</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="./photo.jpeg" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;" width="300"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.facebook.com/pratik.alaspure.75" target="www.facebook.com">
+              <i data-feather="facebook"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.instagram.com/pratik_alaspure/" target="https://www.instagram.com/">
+             <i data-feather="instagram"></i>
+          </a>
+          
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/pratik-alaspure-84a39b201/" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="./resume.pdf.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="resume.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD RESUME</span>
+          </a><br><br>
+          <a  href="./Thesis final stun gun 6 (1).pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="resume.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD PROJECT REPORT</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM VITAE</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;">"The mind is the limit. When you face your struggles, you overcome them."</p>
+            <h1>Pratik Alaspure (22)</h2>
+            
+            <p></p>
+          </div>
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+            <p class="w3-margin-top-2"> 
+              Technical-minded, electrical engineering graduate looking for a junior Electrical Engineer position . 
+              Looking to leverage my working knowledge of C,c++, python, and experience in basic electronic and electrical
+               troubleshooting activities to help you with your upcoming projects
+            </p>
+            <p class=""> <br>
+              I have got various achievements in my carrier, but the most notable achievement was the delivery of my college project. 
+              We have opt to create security, as some of our team members including me was having reasonable knowledge of embedded C, and the guy who was leading us was senior and had worked with many iot projects. But due to some issue, he needs to go out of town so, I was selected as lead for that project. So with my continuous practice and enthusiasm including my team members, we have completed our task, and our project was one of the best projects of our college.
+            </p>
+            <p class=""> <br>
+               I am sweet smart, confident, and hardworking person. I am a cool hearted person, so usually see every difficulty with a positive side and keep myself always smiling which makes me stronger even more.
+
+              I can carry out any task assigned to me without hesitation.
+            </p>
+          </div>
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              
+
+            <!---EDUCATION SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY EDUCATION</h3>
+                <h4>Prof. Ram Meghe College Of Engineering And Management, Badnera</h4>
+                <P>Bachelor Of Engineering</P>
+                <p>Electrical Engineering</p>
+                <p>October 2018 - July 2022 </p>
+                <h4>Shri Shivaji Science College , Amravati</h4>
+                <p>Higher Secondary School Certificate</p>
+                <P>Electronic</P>
+                <p>October 2016 - feb 2018 </p>
+                <h4>Narayandas Laddha High-School , Amravati</h4>
+                <p>Secondary School Certificate</p>
+                <P>General</P>
+                <P>june 2011 - march 2016</P>
+
+            </div>
+            <!--My project-->
+            <div id="PROJECT" class="w3-container w3-margin-top-20-percent w3-cursive">
+              <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY PROJECT</h2>
+              <div class="w3-container w3-margin-top-2 w3-cursive">
+            <div class="w3-container w3-margin-top-2 w3-cursive">>
+             <h3 class="w3-border-amber">MY PROJECT</h3>
+             <h4>"Security System Using Stun Gun"</h4>
+             <p>A stun gun is a gadget used to produce a high voltage, low current signal, used mostly as a weapon to stun or send shock waves to the target with the intention to weaken or paralyze it
+
+              However proceeding to design the circuit, it should be kept in mind that in some countries, stun gun is banned. Because, this is actually a lethal weapon which can render a person mentally paralyzed. 
+              
+              It is usually powered by a 3.7V battery. Here, we design a stun gun circuit using voltage booster(Multiplier). It produces voltage uo 400kv from 3.7v battery 
+              
+              And it comes with the message altert of real time location with help of Gps intergrated with Esp 8266 node mcu 
+              
+              Twilio application is used for the sending internet message in which it contain real time location of victim.
+              </p><br>
+              <h4>Download Project report</h4><br>
+              <a  href="./Thesis final stun gun 6 (1).pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="resume.pdf">
+                <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+                <span class="w3-margin-left download-text">DOWNLOAD PROJECT REPORT</span>
+              </a>
+            </div>
+
+
+            <!--SKILLS SECTION-->
+            <div id="PROJECT" class="w3-container w3-margin-top-20-percent w3-cursive">
+              <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY SKILL</h2>
+              <div class="w3-container w3-margin-top-2 w3-cursive">
+              <!--SOFT SKILLS-->
+              <h4>Soft skills</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>I have excelent communication skill and confidence in front of an audience</li>
+                <li>I have a talent for investigating and researching different processes to offer different improvements and solution for the benefit of the organization </li>
+                <li>Provided engaging text, image and video content for all social media and professional accounts</li>
+              </ul>
+              <!--TECHNICAL SKILLS-->
+              <h4>Technical skills</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I have a great experience with MS Office tools</li>
+                  <li>I am proficient in technical writing</li>
+                  <li>I got trained and certified for multiple technologies as core and advanced C, C++,Python. Java, and SQL.</li>
+                  <li>I Am familiar with some database 
+                      <br>
+                      SQL, MySQL By using Clever Cloud
+                  </li>
+                  <li> Also I am familiar with basic of HTML,Css,Java Script</li>
+                </ul>
+            </div>
+
+            <!--INTERESTS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY HOBBIES AND INTERESTS</h3>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I love mountain hiking and cycling in my free time</li>
+                  <li>I like to play outdoor  games like cricket, football </li>
+                  <li>I like to  learning a new technologies</li>
+                </ul>
+
+            </div>
+
+            
+
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT DETAILS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Name: Pratik Alaspure</p>
+              <p>Adress: Changgani nagar near ram mandir , Amravati ,pin code- 444605</p>
+              <p>Phone number: 7378657125</p>
+              <p>Phone number: 9823092505</p>
+              <p>E-mail: pratikalaspure1234@gmail.com</p>
+              <p>E-mail : pratikalaspure2021@gmail.com
+            </div>
+          </div>
+
+        
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
